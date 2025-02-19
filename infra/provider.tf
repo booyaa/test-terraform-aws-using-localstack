@@ -1,6 +1,6 @@
 provider "aws" {
-  access_key = "test"
-  secret_key = "test"
+  access_key = "mock_access_key"
+  secret_key = "mock_secret_key"
   region     = "eu-west-2"
 
   s3_use_path_style           = true
